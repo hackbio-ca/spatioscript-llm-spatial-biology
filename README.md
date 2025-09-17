@@ -1,6 +1,6 @@
-# demo-project
+# spatioscript-llm-spatial-biology
 
-A brief description of the project. Explain what it does and who it's for.
+SpatioScript: LLM-powered spatial biology query model
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
