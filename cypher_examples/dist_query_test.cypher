@@ -1,3 +1,5 @@
+// CYPHER EXAMPLE
+
 // Find all pairs of Spots annotated with CD8 within 50 microns
 MATCH (a3:AnnotationLevel3 {name:"CD4/CD8"})-[:ANNOTATES]->(s1:Spot),
       (a3)-[:ANNOTATES]->(s2:Spot)

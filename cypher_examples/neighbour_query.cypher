@@ -1,3 +1,5 @@
+// CYPHER EXAMPLE
+
 // For each CD8 cell, find nearby spots and their annotations
 MATCH (cd8:AnnotationLevel3 {name:"CD4/CD8"})-[:ANNOTATES]->(s:Spot)
 

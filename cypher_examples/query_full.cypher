@@ -1,3 +1,5 @@
+// CYPHER EXAMPLE LOAD
+
 CALL apoc.periodic.iterate(
   'CALL apoc.load.csv("file:///var/lib/neo4j/import/gbm_obs_with_annotations_level_3.csv", {sep: ",", header: true}) YIELD map as row',
   '
