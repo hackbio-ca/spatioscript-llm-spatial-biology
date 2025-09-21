@@ -4,7 +4,7 @@ SpatioScript: LLM-powered spatial biology query model
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-##About The Team
+###About The Team
 
 We are excited to share that Panoramics-a-Vision proudly took part in the recent hackathon! Panoramics is a pan-Canadian catalyst for spatial biology and single-cell innovation, bringing together science, technology, and visionary impact.
 
