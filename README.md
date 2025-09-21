@@ -148,6 +148,9 @@ Panoramics Team - [LinkedIn](https://www.linkedin.com/company/panoramics-a-visio
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [Python.org]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
@@ -167,9 +170,3 @@ Panoramics Team - [LinkedIn](https://www.linkedin.com/company/panoramics-a-visio
 
 [QuPath.com]: https://img.shields.io/badge/QuPath-3A6EA5?style=for-the-badge&logoColor=white
 [QuPath-url]: https://qupath.github.io/
-
-If you have any issues or need help, please open an [issue](https://github.com/hackbio-ca/demo-project/issues) or contact the project maintainers.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
