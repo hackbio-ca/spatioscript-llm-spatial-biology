@@ -35,14 +35,6 @@
 
 </div>
 
----
-
-<!-- Demo image -->
-<p align="center">
-  <img src="images/panoramics_temp_logo_logo_long.jpg" alt="App overview" width="900">
-</p>
----
-
 ## Let's Get Started
 
 We are excited to share that **Panoramics-a-Vision** proudly took part in the recent Toronto Bioinformatics Hackathon!  
