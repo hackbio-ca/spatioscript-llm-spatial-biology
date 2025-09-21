@@ -37,11 +37,10 @@
 
 ---
 
-<!-- Demo image placeholder -->
+<!-- Demo image -->
 <p align="center">
-  <img src="images/hero_placeholder.png" alt="App overview" width="900">
+  <img src="images/panoramics_temp_logo_logo_long.jpg" alt="App overview" width="900">
 </p>
-
 ---
 
 ## Let's Get Started
@@ -155,7 +154,7 @@ Contributions are welcome! If you'd like to contribute, please open an issue or 
 
 ## Contact
 
-Panoramics Team - [LinkedIn](https://www.linkedin.com/company/panoramics-a-vision/posts/?feedView=all) - panoramics-a-vision@gmail.com
+Panoramics Team - [LinkedIn](https://www.linkedin.com/company/panoramics-a-vision/posts/?feedView=all) - panoramics@panoramics-a-vision.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
