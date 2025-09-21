@@ -116,11 +116,9 @@ Contributions are welcome! If you'd like to contribute, please open an issue or 
 
 ## Support
 
-<!-- CONTACT -->
 ## Contact
 
-Panoramics-A-vision - [@your_linkedIn](https://www.linkedin.com/company/panoramics-a-vision/posts/?feedView=all)
-
+Panoramics Team - [LinkedIn](https://www.linkedin.com/company/panoramics-a-vision/posts/?feedView=all) - panoramics-a-vision@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
