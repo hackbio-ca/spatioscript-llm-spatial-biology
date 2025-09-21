@@ -33,11 +33,11 @@ We are excited to share that Panoramics-a-Vision proudly took part in the recent
 
 Our hackathon team combined diverse expertise and strong collaboration:
 
-Shamini Ayyadhury – CEO of Panoramics and our team leader, providing vision and direction.
-Suluxan Mohanraj – Software Developer and co-team leader, driving our technical development.
-Arzu Kirici – Computational Scientist, contributing analytical depth and problem-solving.
-Alyona Ivanova – Scientist, Creative Content Maestro
-Kasra Rahimian – Web Developer, ensuring seamless design and implementation on the web side.
+Shamini Ayyadhury – CEO of Panoramics and our team leader, providing vision and direction.</br>
+Suluxan Mohanraj – Software Developer and co-team leader, driving our technical development.</br>
+Arzu Kirici – Computational Scientist, contributing analytical depth and problem-solving.</br>
+Alyona Ivanova – Scientist, Creative Content Maestro</br>
+Kasra Rahimian – Web Developer, ensuring seamless design and implementation on the web side.</br>
 Together, we worked across disciplines to turn ideas into solutions, demonstrating the collaborative spirit that defines Panoramics.
 
 
