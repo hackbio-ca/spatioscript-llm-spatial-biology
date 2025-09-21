@@ -18,5 +18,5 @@ CALL apoc.periodic.iterate(
   MERGE (a1)-[:ANNOTATES]->(s)
   MERGE (a3)-[:ANNOTATES]->(s)
   ',
-  {batchSize:5000, iterateList:true, parallel:true}
+  {batchSize:5000, iterateList:true, parallel:false}
 );
