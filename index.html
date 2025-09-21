@@ -27,6 +27,10 @@
     <div class="mockup-code bg-black text-green-300 border border-neutral-800 h-80 overflow-y-auto p-4">
       <pre data-prefix="$"><code id="response">Waiting for input...</code></pre>
     </div>
+    <div class="mt-4 flex gap-2">
+      <button value="Find all cells expressing gene X in tissue Y." onclick="exampleQuery(this)" class="btn btn-sm bg-green-400 border border-neutral-700 text-black hover:bg-neutral-800">Example 1</button>
+      <button value="List all interactions between cell type A and cell type B." onclick="exampleQuery(this)" class="btn btn-sm bg-green-400 border border-neutral-700 text-black hover:bg-neutral-800">Example 2</button>
+      <button value="Show spatial distribution of protein Z in sample S." onclick="exampleQuery(this)" class="btn btn-sm bg-green-400 border border-neutral-700 text-black hover:bg-neutral-800">Example 3</button>
   </div>
 
   <script>
@@ -47,6 +51,14 @@
       } catch (err) {
         responseElement.textContent = "Error: " + err;
       }
+    }
+  </script>
+  <script>
+    async function exampleQuery(button){
+      const query = button.value;
+      const question = document.getElementById("question");
+      question.value = query;
+      ask();
     }
   </script>
 </body>
