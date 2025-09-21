@@ -24,15 +24,6 @@
     ·
     <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
-
-  <!-- Shields row -->
-  <p>
-    <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
-    <img src="https://img.shields.io/github/stars/agkirici/spatioscript-llm-spatial-biology?style=social" alt="GitHub stars">
-    <img src="https://img.shields.io/github/issues/agkirici/spatioscript-llm-spatial-biology" alt="Open issues">
-    <img src="https://img.shields.io/github/last-commit/agkirici/spatioscript-llm-spatial-biology" alt="Last commit">
-  </p>
-
 </div>
 
 ## Let's Get Started
@@ -71,6 +62,7 @@ With the ultimate goal of enhancing multi-disciplinary research, our tool:
 
 This project demonstrates how **natural language interfaces** can make complex, high-dimensional omics data more accessible and actionable, augmenting biological insights and empowering the user’s scientific vision.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 ---
 
 ### 🛠️ Built With
@@ -84,7 +76,6 @@ This project demonstrates how **natural language interfaces** can make complex, 
   <a href="https://qupath.github.io/"><img src="https://img.shields.io/badge/QuPath-3A6EA5?style=for-the-badge&logoColor=white" alt="QuPath"></a>
 </p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -119,6 +110,8 @@ demo <- example_function()
 print(demo)
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Usage
 
 Add detailed information and examples on how to use the project, covering its major features and functions.
@@ -137,6 +130,8 @@ library(demoProject)
 demo <- advanced_function(parameter1 = "value1")
 print(demo)
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contribute
 
