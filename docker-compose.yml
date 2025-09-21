@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   neo4j:
     # image: neo4j:5.22 # latest stable 5.x version, adjust as needed
@@ -24,3 +22,19 @@ services:
       - ./neo4j/import:/var/lib/neo4j/import
       - ./neo4j/plugins:/var/lib/neo4j/plugins
       - ./neo4j/logs:/var/lib/neo4j/logs
+
+  fastapi:
+    build: ./fastapi   # put your FastAPI app in ./fastapi with a Dockerfile
+    container_name: fastapi
+    ports:
+      - "8000:8000"   # FastAPI endpoint
+    volumes:
+      - ./fastapi:/app 
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}   # pass through your OpenAI key
+      - NEO4J_URI=bolt://neo4j:7687        # internal hostname is 'neo4j'
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=letmein
+    depends_on:
+      - neo4j
+    command: uvicorn app:app --host 0.0.0.0 --port 8000 --reload
