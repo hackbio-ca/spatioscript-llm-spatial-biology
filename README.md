@@ -15,13 +15,12 @@
   </p>
 
   <!-- Action buttons -->
- <!-- Action buttons – internal anchors only -->
 <p align="center">
   <a href="#abstract"><b>Abstract »</b></a>
   ·
   <a href="#installation">Installation</a>
   ·
-  <a href="#built-with">Built with</a>
+  <a href="#built-with">Built With</a>
   ·
   <a href="#usage">Usage</a>
   ·
@@ -69,7 +68,7 @@ This project demonstrates how **natural language interfaces** can make complex, 
 
 ---
 
-### 🛠️ Built With
+## 🛠️ Built With
 
 <p align="center">
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
