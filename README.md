@@ -6,9 +6,9 @@ SpatioScript: LLM-powered spatial biology query model
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
+**<div align="center">
   <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology">
-    <img src="images/panoramics_temp_logo_logo_long.jpg" alt="Logo" width="200">
+    <img src="images/panoramics_temp_logo_logo_long.jpg" alt="Logo" width="600">
   </a>
 
   <h3 align="center">SpatioScript: LLM-Powered Spatial Biology</h3>
