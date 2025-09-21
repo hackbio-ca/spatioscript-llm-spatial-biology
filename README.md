@@ -109,10 +109,9 @@ docker compose up
 make dev
 
 # Recommended: serve with Python to avoid CORS issues
-cd frontend
 python3 -m http.server 8080
-# then go to http://localhost:8080/index.html
-# Or, simply open frontend/index.html in your browser.
+# then go to http://localhost:8080
+# Or, simply open index.html in your browser.
 ```
 ## Graph Database Data Ingestion
 
