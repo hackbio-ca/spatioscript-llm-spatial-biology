@@ -127,7 +127,9 @@ Contributions are welcome! If you'd like to contribute, please open an issue or 
 
 ## Contact
 
-Panoramics Team - [LinkedIn](https://www.linkedin.com/company/panoramics-a-vision/posts/?feedView=all) - panoramics@panoramics-a-vision.com
+Panoramics Team - [LinkedIn](https://www.linkedin.com/company/panoramics-a-vision/posts/?feedView=all) 
+
+For more information email us - panoramics@panoramics-a-vision.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
