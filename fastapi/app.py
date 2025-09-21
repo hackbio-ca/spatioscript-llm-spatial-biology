@@ -72,7 +72,7 @@ def ask_gpt(prompt: str, schema_info: str = None) -> str:
     "Never assume or use the reverse direction. "
     "Always return at most the top 10 results by appending `LIMIT 10` to the query. "
     "Always include LIMIT 10 at the very end of the query, even if not requested. "
-    "Only use explicit scalar property projections (e.g., s.cell_id, a.name, distance). "
+    "Only use explicit scalar property projections (e.g., .cell_id, .name, distance). "
     "Never return nodes, maps, or `*`. "
     "Order by distance ASC only when distance is returned. "
     f"Valid AnnotationLevel3 names are ONLY: {', '.join(available_annotations)}. "
