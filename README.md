@@ -1,31 +1,48 @@
-# spatioscript-llm-spatial-biology
+<a id="readme-top"></a>
 
-SpatioScript: LLM-powered spatial biology query model
+<!-- HERO -->
+<div align="center">
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+  <picture>
+    <!-- Optional dark logo if you have one -->
+    <!-- <source media="(prefers-color-scheme: dark)" srcset="images/panoramics_temp_logo_logo_long_dark.png"> -->
+    <img src="images/panoramics_temp_logo_logo_long.jpg" alt="Panoramics Logo" width="720">
+  </picture>
 
-<!-- PROJECT LOGO -->
-<br />
-**<div align="center">
-  <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology">
-    <img src="images/panoramics_temp_logo_logo_long.jpg" alt="Logo" width="600">
-  </a>
-
-  <h3 align="center">SpatioScript: LLM-Powered Spatial Biology</h3>
-
+  <h1>SpatioScript: LLM-Powered Spatial Biology</h1>
   <p align="center">
-    Bioinformatics project developed for the Toronto Hackathon
-    <br />
-    <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology">View Demo</a>
-    &middot;
-    <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
+    Natural-language questions over spatial transcriptomics with integrated cell annotations & spatial graphs
+  </p>
+
+  <!-- Action buttons -->
+  <p align="center">
+    <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology"><b>Explore the docs »</b></a>
+    ·
+    <a href="#quick-start">Quick Start</a>
+    ·
+    <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology/issues">Issues</a>
+    ·
     <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
+
+  <!-- Shields row -->
+  <p>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
+    <img src="https://img.shields.io/github/stars/agkirici/spatioscript-llm-spatial-biology?style=social" alt="GitHub stars">
+    <img src="https://img.shields.io/github/issues/agkirici/spatioscript-llm-spatial-biology" alt="Open issues">
+    <img src="https://img.shields.io/github/last-commit/agkirici/spatioscript-llm-spatial-biology" alt="Last commit">
+  </p>
+
 </div>
+
+---
+
+<!-- Demo image placeholder -->
+<p align="center">
+  <img src="images/hero_placeholder.png" alt="App overview" width="900">
+</p>
+
+---
 
 ## Let's Get Started
 
@@ -42,6 +59,7 @@ Our hackathon team combined diverse expertise and strong collaboration:
 
 Together, we worked across disciplines to transform ideas into solutions, demonstrating the collaborative spirit that defines **Panoramics**.
 
+---
 
 ## Abstract
 
@@ -62,16 +80,22 @@ With the ultimate goal of enhancing multi-disciplinary research, our tool:
 
 This project demonstrates how **natural language interfaces** can make complex, high-dimensional omics data more accessible and actionable, augmenting biological insights and empowering the user’s scientific vision.
 
-### Built With
+---
 
-* [![Python][Python.org]][Python-url]
-* [![OpenAI][OpenAI.com]][OpenAI-url]
-* [![FastAPI][FastAPI.tiangolo]][FastAPI-url]
-* [![Docker][Docker.com]][Docker-url]
-* [![Neo4j][Neo4j.com]][Neo4j-url]
-* [![QuPath][QuPath.com]][QuPath-url]
+### 🛠️ Built With
+
+<p align="center">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://openai.com/"><img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"></a>
+  <a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"></a>
+  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
+  <a href="https://neo4j.com/"><img src="https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j"></a>
+  <a href="https://qupath.github.io/"><img src="https://img.shields.io/badge/QuPath-3A6EA5?style=for-the-badge&logoColor=white" alt="QuPath"></a>
+</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 ## Installation
 
@@ -83,7 +107,6 @@ pip install project-dependencies
 
 # Example command to install dependencies (R)
 install.packages("project-dependencies")
-```
 
 
 ## Quick Start
