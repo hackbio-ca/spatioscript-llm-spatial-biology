@@ -15,12 +15,13 @@
   </p>
 
   <!-- Action buttons -->
+
 <p align="center">
   <a href="#abstract"><b>Abstract »</b></a>
   ·
   <a href="#installation">Installation</a>
   ·
-  <a href="#-built-with">Built With</a>
+  <a href="#built-with">Built With</a>
   ·
   <a href="#usage">Usage</a>
   ·
