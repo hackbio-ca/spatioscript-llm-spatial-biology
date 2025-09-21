@@ -69,7 +69,7 @@ This project demonstrates how **natural language interfaces** can make complex, 
 * [![FastAPI][FastAPI.tiangolo]][FastAPI-url]
 * [![Docker][Docker.com]][Docker-url]
 * [![Neo4j][Neo4j.com]][Neo4j-url]
-* [![Qubit][Qubit.com]][Qubit-url]
+* [![QuPath][QuPath.com]][QuPath-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,8 +153,8 @@ Panoramics Team - [LinkedIn](https://www.linkedin.com/company/panoramics-a-visio
 [Neo4j.com]: https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white
 [Neo4j-url]: https://neo4j.com/
 
-[Qubit.com]: https://img.shields.io/badge/Qubit-00B2A9?style=for-the-badge&logo=thermofisher&logoColor=white
-[Qubit-url]: https://www.thermofisher.com/ca/en/home/brands/product-brand/qubit.html
+[QuPath.com]: https://img.shields.io/badge/QuPath-3A6EA5?style=for-the-badge&logoColor=white
+[QuPath-url]: https://qupath.github.io/
 
 If you have any issues or need help, please open an [issue](https://github.com/hackbio-ca/demo-project/issues) or contact the project maintainers.
 
