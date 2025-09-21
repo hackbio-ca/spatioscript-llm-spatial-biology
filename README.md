@@ -15,15 +15,18 @@
   </p>
 
   <!-- Action buttons -->
-  <p align="center">
-    <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology"><b>Explore the docs »</b></a>
-    ·
-    <a href="#quick-start">Quick Start</a>
-    ·
-    <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology/issues">Issues</a>
-    ·
-    <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
+ <!-- Action buttons – internal anchors only -->
+<p align="center">
+  <a href="#abstract"><b>Abstract »</b></a>
+  ·
+  <a href="#installation">Installation</a>
+  ·
+  <a href="#built-with">Built with</a>
+  ·
+  <a href="#usage">Usage</a>
+  ·
+  <a href="#contact">Contact</a>
+</p>
 </div>
 
 ## Let's Get Started
@@ -63,6 +66,7 @@ With the ultimate goal of enhancing multi-disciplinary research, our tool:
 This project demonstrates how **natural language interfaces** can make complex, high-dimensional omics data more accessible and actionable, augmenting biological insights and empowering the user’s scientific vision.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
+
 ---
 
 ### 🛠️ Built With
@@ -75,7 +79,6 @@ This project demonstrates how **natural language interfaces** can make complex, 
   <a href="https://neo4j.com/"><img src="https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white" alt="Neo4j"></a>
   <a href="https://qupath.github.io/"><img src="https://img.shields.io/badge/QuPath-3A6EA5?style=for-the-badge&logoColor=white" alt="QuPath"></a>
 </p>
-
 
 ---
 
