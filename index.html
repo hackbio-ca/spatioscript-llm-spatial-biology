@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <title>FastAPI Neo4j Terminal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="bg-black min-h-screen flex items-center justify-center font-mono bg-[url('https://static.wixstatic.com/media/56775c_04058c41b3584204b7a2212119519d31~mv2.jpg/v1/fill/w_3000,h_1102,al_c,q_90,enc_avif,quality_auto/AdobeStock_478200128_edited.jpg')] bg-cover bg-center">
+    <div class="w-full max-w-3xl p-6 rounded-lg shadow-lg border border-neutral-800 bg-black/40 backdrop-blur-md">
+    <h1 class="text-xl font-bold text-green-400 mb-4">SpatioScript: LLM-powered spatial biology query tool
+    </h1>
+
+    <!-- Input -->
+    <div class="flex gap-2 mb-4">
+      <input 
+        type="text" 
+        id="question" 
+        placeholder="> Enter query..." 
+        class="input input-bordered w-full bg-black text-green-400 placeholder:text-green-600 border-neutral-700 focus:border-green-500"
+      />
+      <button onclick="ask()" class="btn bg-green-400 border border-neutral-700 text-black hover:bg-neutral-800">Run</button>
+    </div>
+
+    <!-- Mockup Code Output -->
+    <h2 class="text-lg text-green-400 mb-2">Response:</h2>
+    <div class="mockup-code bg-black text-green-300 border border-neutral-800 h-80 overflow-y-auto p-4">
+      <pre data-prefix="$"><code id="response">Waiting for input...</code></pre>
+    </div>
+  </div>
+
+  <script>
+    async function ask() {
+      const question = document.getElementById("question").value;
+      const responseElement = document.getElementById("response");
+
+      responseElement.textContent = "Loading...";
+
+      try {
+        const res = await fetch("http://localhost:8000/ask", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ prompt: question })
+        });
+        const data = await res.json();
+        responseElement.textContent = JSON.stringify(data, null, 2);
+      } catch (err) {
+        responseElement.textContent = "Error: " + err;
+      }
+    }
+  </script>
+</body>
+</html>
