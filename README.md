@@ -86,36 +86,49 @@ This project demonstrates how **natural language interfaces** can make complex, 
 
 ## Local App Installation
 
-Please follow the instructions below to 
+Please follow the instructions below to set up the SpatioScript application!
+
+### NOTE: You will require an OPENAI API Key and credits to run this app 
 
 ```bash
-# Example command to install dependencies (Python)
-pip install project-dependencies
+# Clone this repo 
+git clone https://github.com/hackbio-ca/spatioscript-llm-spatial-biology.git
+cd spatioscript-llm-spatial-biology
 
-# Example command to install dependencies (R)
-install.packages("project-dependencies")
+# Copy `sample.env` to `.env`
+cp sample.env .env
+```
+```env
+# Don't forget to assign your OpenAI API key to the OPENAI_API_KEY environment variable
+OPENAI_API_KEY=your_openai_api_key_here
+```
+```bash
+# Docker compose up (or use the handy Makefile commands) 
+docker compose up 
+# OR
+make dev
+
+# Recommended: serve with Python to avoid CORS issues
+cd frontend
+python3 -m http.server 8080
+# then go to http://localhost:8080/index.html
+# Or, simply open frontend/index.html in your browser.
 ```
 ## Graph Database Data Ingestion
 
+```bash
+# Add your filtered AnnData csv file to /neo4j/import 
+# Open localhost:7474 in your browser to view the Neo4J Graph Database Browser
+# Now, run cypher_examples/query_full.cypher in your localhost:7474 browser
+# You may increase the heapsize (docker-compose.yml) or the batch_size (cypher_examples/query_full.cypher) to speed up your ingestion!
 ```
-## Quick Start
+```cypher
+// Confirming data is in there!
+MATCH (n) RETURN n 
+MATCH (n) RETURN count(n)
+````
 
-Provide a basic usage example or minimal code snippet that demonstrates how to use the project.
-
-```python
-# Example usage (Python)
-import my_project
-
-demo = my_project.example_function()
-print(demo)
-```
-```r
-# Example usage (R)
-library(my_project)
-
-demo <- example_function()
-print(demo)
-```
+Your [SpatioScript](http://localhost:8080) app is now ready to explore!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
