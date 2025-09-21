@@ -129,6 +129,16 @@ MATCH (n) RETURN count(n)
 
 Your [SpatioScript](http://localhost:8080) app is now ready to explore!
 
+<p align="center">
+  <b>Application Interface</b><br>
+  <img src="images/website1.png" alt="App interface" width="700">
+</p>
+
+<p align="center">
+  <b>Neo4j Database View</b><br>
+  <img src="images/website2.png" alt="Neo4j visualization" width="700">
+</p>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contribute
