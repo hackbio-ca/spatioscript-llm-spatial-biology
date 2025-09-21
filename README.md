@@ -4,7 +4,30 @@ SpatioScript: LLM-powered spatial biology query model
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-###About The Team
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology">
+    <img src="images/panoramics_temp_logo_logo_long.jpg" alt="Logo" width="200">
+  </a>
+
+  <h3 align="center">SpatioScript: LLM-Powered Spatial Biology</h3>
+
+  <p align="center">
+    Bioinformatics project developed for the Toronto Hackathon
+    <br />
+    <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology">View Demo</a>
+    &middot;
+    <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    &middot;
+    <a href="https://github.com/agkirici/spatioscript-llm-spatial-biology/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
+## Let's get started
 
 We are excited to share that Panoramics-a-Vision proudly took part in the recent hackathon! Panoramics is a pan-Canadian catalyst for spatial biology and single-cell innovation, bringing together science, technology, and visionary impact.
 
