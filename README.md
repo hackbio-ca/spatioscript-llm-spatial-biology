@@ -16,14 +16,16 @@
 
   <!-- Action buttons -->
 
+<!-- Action buttons -->
+
 <p align="center">
   <a href="#abstract"><b>Abstract »</b></a>
   ·
-  <a href="#installation">Installation</a>
-  ·
   <a href="#built-with">Built With</a>
   ·
-  <a href="#usage">Usage</a>
+  <a href="#local-app-installation">Local App Installation</a>
+  ·
+  <a href="#graph-database-data-ingestion">Graph Database Data Ingestion</a>
   ·
   <a href="#contact">Contact</a>
 </p>
