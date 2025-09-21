@@ -82,9 +82,9 @@ This project demonstrates how **natural language interfaces** can make complex, 
 
 ---
 
-## Installation
+## Local App Installation
 
-Provide instructions on how to install and set up the project, such as installing dependencies and preparing the environment.
+Please follow the instructions below to 
 
 ```bash
 # Example command to install dependencies (Python)
@@ -92,8 +92,10 @@ pip install project-dependencies
 
 # Example command to install dependencies (R)
 install.packages("project-dependencies")
+```
+## Graph Database Data Ingestion
 
-
+```
 ## Quick Start
 
 Provide a basic usage example or minimal code snippet that demonstrates how to use the project.
@@ -110,27 +112,6 @@ print(demo)
 library(my_project)
 
 demo <- example_function()
-print(demo)
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Usage
-
-Add detailed information and examples on how to use the project, covering its major features and functions.
-
-```python
-# More usage examples (Python)
-import my_project
-
-demo = my_project.advanced_function(parameter1='value1')
-print(demo)
-```
-```r
-# More usage examples (R)
-library(demoProject)
-
-demo <- advanced_function(parameter1 = "value1")
 print(demo)
 ```
 
