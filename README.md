@@ -27,35 +27,49 @@ SpatioScript: LLM-powered spatial biology query model
   </p>
 </div>
 
-## Let's get started
+## Let's Get Started
 
-We are excited to share that Panoramics-a-Vision proudly took part in the recent hackathon! Panoramics is a pan-Canadian catalyst for spatial biology and single-cell innovation, bringing together science, technology, and visionary impact.
+We are excited to share that **Panoramics-a-Vision** proudly took part in the recent Toronto Bioinformatics Hackathon!  
+Panoramics is a pan-Canadian catalyst for spatial biology and single-cell innovation, bringing together science, technology, and visionary impact.
 
 Our hackathon team combined diverse expertise and strong collaboration:
 
-Shamini Ayyadhury – CEO of Panoramics and our team leader, providing vision and direction.</br>
-Suluxan Mohanraj – Software Developer and co-team leader, driving our technical development.</br>
-Arzu Kirici – Computational Scientist, contributing analytical depth and problem-solving.</br>
-Alyona Ivanova – Scientist, Creative Content Maestro</br>
-Kasra Rahimian – Web Developer, ensuring seamless design and implementation on the web side.</br>
-Together, we worked across disciplines to turn ideas into solutions, demonstrating the collaborative spirit that defines Panoramics.
+- **Shamini Ayyadhury** – CEO of Panoramics and team leader, providing strategic vision and overall direction.  
+- **Suluxan Mohanraj** – Software Developer and co-team leader, driving the core technical development.  
+- **Arzu Kirici** – Computational Scientist, contributing analytical expertise and problem-solving for data workflows.  
+- **Alyona Ivanova** – Scientist and Creative Content Lead, shaping communication and presentation materials.  
+- **Kasra Rahimian** – Web Developer, ensuring seamless design and implementation of the project’s web interface.  
+
+Together, we worked across disciplines to transform ideas into solutions, demonstrating the collaborative spirit that defines **Panoramics**.
 
 
 ## Abstract
 
-Single-cell RNA sequencing (scRNA-seq) has enabled the measurement of expression levels of thousands of genes across millions of individual cells. While scRNA-seq provides deep transcriptional profiles, it obscures critical information about each cell’s physical location within the tissue microenvironment. Spatial transcriptomics overcomes this limitation by mapping gene expression back onto tissue sections, offering a powerful view of both the molecular identity of cells and their spatial organization. Together, these technologies allow researchers to study how cells are organized and interactions within complex biological systems, such as tumours.
-We present an interactive AI-powered application that enables natural language interrogation of spatial transcriptomics data, with a focus on the tumour microenvironment, where the physical arrangement of immune cells, stromal components, and malignant cells plays a critical role in disease progression and therapeutic response. Users can upload or select pre-processed public datasets and ask questions of their data such as “Are CD8+ T cells enriched in the tumour core?” or “Return the spatial proximity of CD8 cells next to blood vessels” or “How correlated are my spatial domains with pathology annotations?”. 
-The system integrates preprocessed public spatial datasets with cell type annotations and a spatial graph (i.e. connectivity map), performs relevant neighbourhood and enrichment analyses, and generates concise, biologically contextualized summaries using a large language model (LLM). 
-With an ultimate goal of enhancing multi-disciplinary research, our tool 1) lowers the barrier to explore high-dimensional spatial datasets and 2) facilitates integration of image-based annotations with high-dimensional molecular discoveries, serving as a valuable toolkit for biologists and clinicians. This project demonstrates how natural language interfaces can make complex high-dimensional omics data more accessible and actionable, augmenting biological insights and empowering the user’s scientific vision.
+Single-cell RNA sequencing (scRNA-seq) has enabled the measurement of expression levels of thousands of genes across millions of individual cells. While scRNA-seq provides deep transcriptional profiles, it obscures critical information about each cell’s physical location within the tissue microenvironment. Spatial transcriptomics overcomes this limitation by mapping gene expression back onto tissue sections, offering a powerful view of both the molecular identity of cells and their spatial organization. Together, these technologies allow researchers to study how cells are organized and how they interact within complex biological systems, such as tumours.  
+
+We present an **interactive AI-powered application** that enables natural language interrogation of spatial transcriptomics data, with a particular focus on the tumour microenvironment, where the physical arrangement of immune cells, stromal components, and malignant cells plays a critical role in disease progression and therapeutic response.  
+
+Users can upload or select pre-processed public datasets and ask questions such as:  
+- *“Are CD8+ T cells enriched in the tumour core?”*  
+- *“Return the spatial proximity of CD8 cells next to blood vessels.”*  
+- *“How correlated are my spatial domains with pathology annotations?”*  
+
+The system integrates preprocessed public spatial datasets with **cell type annotations** and a **spatial graph (i.e., connectivity map)**, performs neighbourhood and enrichment analyses, and generates concise, biologically contextualized summaries using a large language model (LLM).  
+
+With the ultimate goal of enhancing multi-disciplinary research, our tool:  
+1. Lowers the barrier to exploring high-dimensional spatial datasets, and  
+2. Facilitates the integration of image-based annotations with high-dimensional molecular discoveries, serving as a valuable toolkit for both biologists and clinicians.  
+
+This project demonstrates how **natural language interfaces** can make complex, high-dimensional omics data more accessible and actionable, augmenting biological insights and empowering the user’s scientific vision.
 
 ### Built With
-
 
 * [![Python][Python.org]][Python-url]
 * [![OpenAI][OpenAI.com]][OpenAI-url]
 * [![FastAPI][FastAPI.tiangolo]][FastAPI-url]
 * [![Docker][Docker.com]][Docker-url]
 * [![Neo4j][Neo4j.com]][Neo4j-url]
+* [![Qubit][Qubit.com]][Qubit-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,6 +152,10 @@ Panoramics Team - [LinkedIn](https://www.linkedin.com/company/panoramics-a-visio
 
 [Neo4j.com]: https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white
 [Neo4j-url]: https://neo4j.com/
+
+[Qubit.com]: https://img.shields.io/badge/Qubit-00B2A9?style=for-the-badge&logo=thermofisher&logoColor=white
+[Qubit-url]: https://www.thermofisher.com/ca/en/home/brands/product-brand/qubit.html
+
 If you have any issues or need help, please open an [issue](https://github.com/hackbio-ca/demo-project/issues) or contact the project maintainers.
 
 ## License
